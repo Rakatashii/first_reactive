@@ -4,8 +4,8 @@ CREATE TABLE users (
 	username VARCHAR(255),
 	password VARCHAR(255)
 );
-INSERT INTO users VALUES(0, 'rakatashi', 'password');
+INSERT INTO users VALUES(0, 'cmeyerwps@gmail.com', 'password');
 INSERT INTO users VALUES(1, 'billsagger@42.net', 'sjdb2is9');
-INSERT INTO users VALUES(2, 'stevenash', 'password');
-INSERT INTO users VALUES(3, 'JayKelly', 'password5');
-INSERT INTO users VALUES(4, 'JDoss42', 'password6');
+INSERT INTO users VALUES(2, 'cmeyerwps1@gmail.com', 'password');
+INSERT INTO users VALUES(3, 'revature.yellowsnowcone@gmail.com', 'password');
+INSERT INTO users VALUES(4, 'JDoss42@wps.com', 'password6');

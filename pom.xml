@@ -41,15 +41,22 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- rxJava1 
+		<dependency> 
+			<groupId>io.reactivex</groupId> 
+			<artifactId>rxjava</artifactId> 
+		</dependency> 
+		-->
+		<!-- rxJava2 --> 
+		<dependency> 
+			<groupId>io.reactivex.rxjava2</groupId> 
+			<artifactId>rxjava</artifactId> 
+		</dependency> 
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
