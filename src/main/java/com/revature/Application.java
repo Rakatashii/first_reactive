@@ -20,7 +20,7 @@ public class Application  extends SpringBootServletInitializer {
 		context.register(WebMvcConfig.class);
 		
 		CreateMeths.init();
-		Observable<String> filtered = (Observable<String>) CreateMeths.filter(s -> s.length() > 5);
+		Observable<String> filtered = (Observable<String>) CreateMeths.filter(s -> s.length() <= 4);
 		filtered.subscribe(s -> System.out.println(s));
 		
 		SpringApplication.run(Application.class, args);
